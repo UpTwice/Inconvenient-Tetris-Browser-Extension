@@ -1,0 +1,10 @@
+{
+    "name": "Inconvenient Tetris",
+    "description": "This is a very inconvenient version of Tetris",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "Index.html",
+      "default_icon": "Logo.png"
+    }
+  }

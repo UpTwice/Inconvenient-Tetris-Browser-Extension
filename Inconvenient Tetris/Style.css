@@ -1,0 +1,120 @@
+
+body {
+    background-color: black;
+}
+
+.outline {
+    position: static;
+    background-color: white;
+    width: 377px;
+    height: 527px;
+    margin-top: 49px;
+}
+
+.grid {
+    float: left;
+    margin-top: 1PX;
+    margin-left: 1px;
+    width: 375px;
+    height: 525px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.grid div {
+    height: 25px;
+    width: 25px;
+}
+
+.score {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -41px;
+    left: 198px;
+}
+
+.highScore {
+    text-align: center;
+    font-size: small;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1;
+    left: 198PX;
+}
+
+.game-over {
+    visibility: hidden;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    width: 373px;
+    height: 100px;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    font-size: 70px;
+}
+.game-over label {
+    color: white;
+}
+
+.pause-screen {
+    visibility: hidden;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    width: 373px;
+    height: 100px;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    font-size: 70px;
+}
+.pause-screen label {
+    color: white;
+}
+
+.start-button-back {
+    position: absolute;
+    top: 7px;
+    left: 25px;
+}
+button#start-button {
+    border-radius: 2px;
+    background-color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+button#start-button:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.restart-button-back {
+    position: absolute;
+    top: 7px;
+    left: 250px;
+}
+button#restart-button {
+    border-radius: 2px;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 35px;
+}
+button#restart-button:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+
+.tetromino {
+    background-color: blue;
+}
